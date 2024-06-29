@@ -1,0 +1,54 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f0f0f0;
+}
+
+.container {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.matrix-input {
+  margin-bottom: 20px;
+}
+
+table {
+  margin: 10px auto;
+  border-collapse: collapse;
+}
+
+input {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  margin: 5px;
+  font-size: 18px;
+}
+
+.buttons button {
+  margin: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#result {
+  margin-top: 20px;
+}
+
+#resultContent {
+  font-size: 18px;
+  font-weight: bold;
+}
